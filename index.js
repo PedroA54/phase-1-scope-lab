@@ -1,4 +1,5 @@
 var customerName = 'bob';
+
 function upperCaseCustomerName() {
     window.customerName = window.customerName.toUpperCase();
   }
@@ -10,4 +11,4 @@ function upperCaseCustomerName() {
   }
   function changeLeastFavoriteCustomer() {
     throw new Error('Assignment to constant variable.');
-  }
+  } 
